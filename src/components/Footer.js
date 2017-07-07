@@ -1,10 +1,9 @@
 import React from 'react';
 
-const MFooter = (props) => 
-(
-<footer>
-    {props.title}
-</footer>
-);
+         const Footer = (props) => (
+             <div>
+            <footer className="text-center">{props.copyrigth}</footer>
+            </div>
+        );
 
-export default MFooter;
+export default Footer;

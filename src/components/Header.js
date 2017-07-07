@@ -1,10 +1,9 @@
 import React from 'react';
 
-const MComponente = (props) => 
-(
-<h1>
-    {props.title}
-</h1>
-);
+        const Header = (props) => (
+        <div className="text-center">
+            <h1>{props.title}</h1>
+        </div>
+        );
 
-export default MComponente;
+export default Header;
